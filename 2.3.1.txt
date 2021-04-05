@@ -8,6 +8,7 @@ void saveTheFlowers(){
         moveForward();
         pickBeeper();
         turnLeft();
+        while(!rightIsClear()){
         moveForward();
     }
     turnRight();
